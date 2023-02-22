@@ -1,91 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ticket</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="boarding-pass">
-        <h2>Cartão de embarque</h2>
-        <div class="card-wrapper">
-            <div class="flight-info">
-                <div class="number-date-wrapper">
-                    <div class="container-left">
-                        Voo
-                        <strong>RS995</strong>
-                    </div>
-                    <div class="container-right">
-                        Data
-                        <strong>23/05/2023</strong>
-                    </div>
-                </div>
-                <div class="travel-wrapper">
-                    <div class="container-left">
-                        São Paulo, Brasil
-                        <h1 class="black">GRU</h1>
-                        <div class="black">17:00</div>
-                    </div>
-                    <img src="assets/plane.svg" alt="plane">
-                    <div class="container-right">
-                        São Francisco, EUA
-                        <h1 class="black">SFO</h1>
-                        <div class="black">04:48</div>
-                    </div>
-                </div>
-                
+      <h2>Cartão de embarque</h2>
+      <div class="card-wrapper">
+        <section class="flight-info">
+          <div class="number-date-wrapper">
+            <div class="container-left">
+              Voo
+              <strong>RS995</strong>
             </div>
-            <div class="passenger-info">
-                <div class="passenger-wrapper">
-                    <div class="container-left">
-                        Passageiro
-                        <strong>Rodrigo Terron</strong>
-                    </div>
-                    <div class="container-right">
-                        Assento
-                        <strong>28A</strong>
-                    </div>
-                </div>
-                
+            <div class="container-right">
+              Data
+              <strong>23/05/2023</strong>
             </div>
-            <div class="boarding-info">
-                <div class="boarding-wrapper">
-                    <div class="container-left">
-                        <div class="one">
-                            Embarque
-                            <div class="secondary">16:15</div>
-                        </div>
-                        
-                        <div class="two">
-                            Terminal
-                            <strong>2</strong>
-                        </div>
-                        
-                        <div class="three">
-                            Portão
-                            <strong>15</strong>
-                        </div>
-                        
-                    </div>
-                    <div class="container-right">
-                        <img src="assets/qrcode.svg" alt="qr code">
-                        Grupo de embarque: 3
-                    </div>
-                </div>
-                
-                <div class="center">
-                    <strong>Atenção: </strong>o portão fecha 16:45
-                </div>
+          </div>
+          <div class="travel-wrapper">
+            <div class="container-left">
+              São Paulo, Brasil
+              <h1 class="black">GRU</h1>
+              <div class="black">17:00</div>
             </div>
-        </div>
-        <p>Qualquer problema procure o balcão de atendimento da sua companhia aérea</p>
-        
+            <img src="assets/plane.svg" alt="plane" />
+            <div class="container-right">
+              São Francisco, EUA
+              <h1 class="black">SFO</h1>
+              <div class="black">04:48 <sup>+1</sup></div>
+            </div>
+          </div>
+        </section>
+        <section class="passenger-info">
+          <div class="passenger-wrapper">
+            <div class="container-left">
+              Passageiro
+              <strong>Rodrigo Terron</strong>
+            </div>
+            <div class="container-right">
+              Assento
+              <strong>28A</strong>
+            </div>
+          </div>
+        </section>
+        <section class="boarding-info">
+          <div class="boarding-wrapper">
+            <div class="container-left">
+              <dl>
+                <dt>
+                  Embarque
+                  <div class="secondary">16:15</div>
+                </dt>
+                <dt>Terminal <strong>2</strong></dt>
+                <dt>Portão <strong>15</strong></dt>
+              </dl>
+            </div>
+            <div class="container-right">
+              <img src="assets/qrcode.svg" alt="qr code" />
+              <p>Grupo de embarque: 3</p> 
+            </div>
+          </div>
+
+          <div class="center">
+            <strong>Atenção: </strong>o portão fecha 16:45
+          </div>
+        </section>
+      </div>
+      <p>
+        Qualquer problema procure o balcão de atendimento da sua companhia aérea
+      </p>
     </div>
-</body>
+  </body>
 </html>

@@ -1,7 +1,7 @@
 # Cartão de Embarque
 
 ## Descrição do Projeto
-<p align="left">Um carão de embarque feito para o desafio #06 do #boraCodar da @Rocketseat.
+<p align="left">Um cartão de embarque feito para o desafio #06 do #boraCodar da @Rocketseat.
 
 <h1 align="center">
   <img alt="Cartão de Embarque" src="./assets/captura14.PNG" />
